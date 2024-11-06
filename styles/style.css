@@ -3,17 +3,14 @@ html{
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
     background: linear-gradient(180deg, rgb(0, 3, 16) 66%, rgb(35, 11, 4) 100%);
 }
 
 .container{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 280px auto;
     max-width: 335px;
     min-height: 280px;
     background: radial-gradient(circle, #371308, #6c380e);
@@ -41,4 +38,31 @@ input{
     box-sizing: border-box;
     border: 1px solid ghostwhite;
     border-radius: 5px;
+}
+
+a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a img{
+    width: 40px;
+}
+
+a:hover{
+    font-size: 1.55rem;
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
