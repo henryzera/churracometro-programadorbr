@@ -9,10 +9,13 @@ body{
 }
 
 .container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
     font-family: Arial, Helvetica, sans-serif;
     max-width: 335px;
     min-height: 280px;
-    margin: auto;
     background: radial-gradient(circle, #371308, #6c380e);
     padding: 20px;
     border: 1px solid white;
