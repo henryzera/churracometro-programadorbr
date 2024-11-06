@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgb(0, 3, 16) 66%, rgb(35, 11, 4) 100%);
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 335px;
+    min-height: 280px;
+    margin: auto;
+    background: radial-gradient(circle, #371308, #6c380e);
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 0.4rem;
+}
+
+.container h1{
+    text-align: center;
+    color:azure;
+}
+
+.container button{
+    display: block;
+    margin: auto;
+    padding: 5px 0.9rem;
+}
+
+input{
+    width: 45%;
+    display: block;
+    margin: 0 auto 10px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid ghostwhite;
+    border-radius: 5px;
+}
