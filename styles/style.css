@@ -40,6 +40,15 @@ input{
     border-radius: 5px;
 }
 
+footer{
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 a{
     font-size: 1.5rem;
     font-weight: bold;
@@ -56,13 +65,4 @@ a img{
 
 a:hover{
     font-size: 1.55rem;
-}
-
-footer{
-    width: 100%;
-    padding: 10px;
-    position: fixed;
-    bottom: 10px;
-    display: flex;
-    justify-content: center;
 }
